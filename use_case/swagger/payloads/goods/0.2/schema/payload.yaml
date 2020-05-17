@@ -1,0 +1,32 @@
+swagger: '2.0'
+info:
+  description: >-
+    Payload model example
+  version: 0.2.0
+  title: Payload example
+  contact:
+    email: some@example.com
+  x-hugo-values:
+    tags:
+      - payload
+    public: true
+definitions:
+  Payload:
+    description: >-
+      Payload model example
+    type: object
+    properties:
+      name:
+        type: string
+        description: goods name
+      description:
+        type: string
+        description: goods description
+      price:
+        type: number
+        example: 10.45
+        description: goods price
+      currency:
+        type: string
+        example: 'USD'
+        description: goods currency

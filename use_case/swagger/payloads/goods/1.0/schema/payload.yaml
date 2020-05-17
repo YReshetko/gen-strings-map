@@ -1,0 +1,61 @@
+swagger: '2.0'
+info:
+  description: >-
+    Payload model example
+  version: 1.0.0
+  title: Payload example
+  contact:
+    email: some@example.com
+  x-hugo-values:
+    tags:
+      - payload
+    public: true
+definitions:
+  Payload:
+    description: >-
+      Payload model example
+    type: object
+    properties:
+      header:
+        $ref: '#/definitions/Header'
+      money:
+        $ref: '#/definitions/Money'
+      agent:
+        $ref: '#/definitions/Agent'
+  Header:
+    description: >-
+      Goods description
+    type: object
+    properties:
+      name:
+        type: string
+        description: goods name
+      description:
+        type: string
+        description: goods description
+  Money:
+    description: >-
+      Goods price
+    type: object
+    properties:
+      price:
+        type: number
+        example: 10.45
+        description: goods price
+      currency:
+        type: string
+        example: 'USD'
+        description: goods currency
+  Agent:
+    description: >-
+      Agent which manage the goods
+    type: object
+    properties:
+      name:
+        type: string
+        example: "John"
+        description: Agent name
+      email:
+        type: string
+        example: 'john@example.com'
+        description: Agent email

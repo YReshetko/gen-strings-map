@@ -1,0 +1,22 @@
+{
+  "order_name": "Some order",
+  "price": 25.00,
+  "description": "some order description",
+  "goods": [
+    {
+      "name": "value_1",
+      "price": 10.00,
+      "currency": "USD"
+    },
+    {
+      "name": "value_2",
+      "price": 10.00,
+      "currency": "USD"
+    },
+    {
+      "name": "value_3",
+      "price": 5.00,
+      "currency": "USD"
+    }
+  ]
+}

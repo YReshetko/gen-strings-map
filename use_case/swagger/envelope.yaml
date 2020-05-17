@@ -1,0 +1,29 @@
+swagger: '2.0'
+info:
+  description: >-
+    Models envelop example
+  version: 0.0.1
+  title: Models example
+  contact:
+    email: some@example.com
+  x-hugo-values:
+    tags:
+      - models
+    public: true
+definitions:
+  Envelop:
+    description: >-
+      Envelope model example
+    type: object
+    properties:
+      category:
+        type: string
+        description: base model category
+      version:
+        type: string
+        example: 0.1.0
+        description: payload version
+      payload:
+        type: object
+        example: '{"key_1":"value_1", "key_2":[1, 4, 5]}'
+        description: Valid JSON payload
