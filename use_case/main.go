@@ -12,7 +12,7 @@ const (
 	invalidOrder = "./fixtures/Order_invalid_V_0_1.json"
 )
 
-//go:generate ../bin/constanter -baseDir=./jsonschema/payloads -pattern=/*/*/schema
+//go:generate ../bin/constanter -baseDir=./jsonschema/payloads -pattern=/*/*
 func main() {
 	//check valid payload
 	d := string(getData(validOrder))

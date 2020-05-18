@@ -1,4 +1,4 @@
-PAYLOADS = $(shell cd ./swagger/payloads && find | grep -oP ^.*schema$)
+PAYLOADS = $(shell cd ./swagger/payloads && find | grep -oP ^.*/[0-9]+\.[0-9]+$)
 
 .PHONY: all
 all: gen_schemas gen build
