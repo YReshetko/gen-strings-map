@@ -1,3 +1,4 @@
+
 ##Go generate tool
 
 #### Install
@@ -62,43 +63,43 @@ import (...)
 var Constants = map[string]map[string]map[string]string{
 	"type_1": {
 		"v0.0.1": {
-			"<constant_name>":   al_type_v0_0_1.SchemaPayloadGoods,
+			"<constant_name>":   al_type_1_v0_0_1.<constant_name>,
 			...
 		},
 		"v1.0.0": {
-			"<constant_name>":   al_type_v1_0_0.SchemaPayloadGoods,
+			"<constant_name>":   al_type_1_v1_0_0.<constant_name>,
 			...
 		},
 		"v1.0.1": {
-			"<constant_name>":   al_type_v1_0_1.SchemaPayloadGoods,
+			"<constant_name>":   al_type_1_v1_0_1.<constant_name>,
 			...
 		},
 	},
 	"type_2": {
 		"v0.0.1": {
-			"<constant_name>":   al_type_v0_0_1.SchemaPayloadGoods,
+			"<constant_name>":   al_type_2_v0_0_1.<constant_name>,
 			...
 		},
 		"v1.0.0": {
-			"<constant_name>":   al_type_v1_0_0.SchemaPayloadGoods,
+			"<constant_name>":   al_type_2_v1_0_0.<constant_name>,
 			...
 		},
 		"v2.0.0": {
-			"<constant_name>":   al_type_v2_0_0.SchemaPayloadGoods,
+			"<constant_name>":   al_type_2_v2_0_0.<constant_name>,
 			...
 		},
 	},
 	"type_3": {
 		"v1.0.0": {
-			"<constant_name>":   al_type_v1_0_0.SchemaPayloadGoods,
+			"<constant_name>":   al_type_3_v1_0_0.<constant_name>,
 			...
 		},
 		"v1.1.0": {
-			"<constant_name>":   al_type_v1_1_0.SchemaPayloadGoods,
+			"<constant_name>":   al_type_3_v1_1_0.<constant_name>,
 			...
 		},
 		"v1.2.0": {
-			"<constant_name>":   al_type_v1_2_0.SchemaPayloadGoods,
+			"<constant_name>":   al_type_3_v1_2_0.<constant_name>,
 			...
 		},
 	},
