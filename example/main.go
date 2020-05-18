@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/YReshetko/map-generator/example/test"
+	"github.com/YReshetko/gen-strings-map/example/test"
 )
 
 //go:generate ../bin/constanter -baseDir=./test -pattern=/schema/*/*/schema

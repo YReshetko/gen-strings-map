@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/YReshetko/map-generator/use_case/jsonschema/payloads"
+	"github.com/YReshetko/gen-strings-map/use_case/jsonschema/payloads"
 	"github.com/xeipuuv/gojsonschema"
 	"io/ioutil"
 	"log"

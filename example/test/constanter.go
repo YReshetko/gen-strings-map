@@ -3,24 +3,24 @@
 package test
 
 import (
-	al_order_0_0_1 "github.com/YReshetko/map-generator/example/test/schema/order/0.0.1/schema"
-	al_order_0_0_2 "github.com/YReshetko/map-generator/example/test/schema/order/0.0.2/schema"
-	al_order_0_1_0 "github.com/YReshetko/map-generator/example/test/schema/order/0.1.0/schema"
-	al_user_0_0_1 "github.com/YReshetko/map-generator/example/test/schema/user/0.0.1/schema"
-	al_user_0_0_2 "github.com/YReshetko/map-generator/example/test/schema/user/0.0.2/schema"
-	al_user_0_1_0 "github.com/YReshetko/map-generator/example/test/schema/user/0.1.0/schema"
+	al_order_0_0_1 "github.com/YReshetko/gen-strings-map/example/test/schema/order/0.0.1/schema"
+	al_order_0_0_2 "github.com/YReshetko/gen-strings-map/example/test/schema/order/0.0.2/schema"
+	al_order_0_1_0 "github.com/YReshetko/gen-strings-map/example/test/schema/order/0.1.0/schema"
+	al_user_0_0_1 "github.com/YReshetko/gen-strings-map/example/test/schema/user/0.0.1/schema"
+	al_user_0_0_2 "github.com/YReshetko/gen-strings-map/example/test/schema/user/0.0.2/schema"
+	al_user_0_1_0 "github.com/YReshetko/gen-strings-map/example/test/schema/user/0.1.0/schema"
 )
 
 var Constants = map[string]map[string]map[string]string{
 	"order": {
-		"0.1.0": {
-			"Payload": al_order_0_1_0.Payload,
-		},
 		"0.0.1": {
 			"Payload": al_order_0_0_1.Payload,
 		},
 		"0.0.2": {
 			"Payload": al_order_0_0_2.Payload,
+		},
+		"0.1.0": {
+			"Payload": al_order_0_1_0.Payload,
 		},
 	},
 	"user": {
