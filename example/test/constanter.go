@@ -12,26 +12,26 @@ import (
 )
 
 var Constants = map[string]map[string]map[string]string{
-	"user": {
+	"order": {
 		"0.1.0": {
-			"Payload": al_user_0_1_0.Payload,
+			"Payload": al_order_0_1_0.Payload,
 		},
+		"0.0.1": {
+			"Payload": al_order_0_0_1.Payload,
+		},
+		"0.0.2": {
+			"Payload": al_order_0_0_2.Payload,
+		},
+	},
+	"user": {
 		"0.0.1": {
 			"Payload": al_user_0_0_1.Payload,
 		},
 		"0.0.2": {
 			"Payload": al_user_0_0_2.Payload,
 		},
-	},
-	"order": {
-		"0.0.2": {
-			"Payload": al_order_0_0_2.Payload,
-		},
 		"0.1.0": {
-			"Payload": al_order_0_1_0.Payload,
-		},
-		"0.0.1": {
-			"Payload": al_order_0_0_1.Payload,
+			"Payload": al_user_0_1_0.Payload,
 		},
 	},
 }
