@@ -1,4 +1,4 @@
-module github.com/YReshetko/map-generator
+module github.com/YReshetko/gen-strings-map
 
 go 1.14
 
