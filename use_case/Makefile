@@ -1,7 +1,7 @@
 PAYLOADS = $(shell cd ./swagger/payloads && find | grep -oP ^.*/[0-9]+\.[0-9]+$)
 
 .PHONY: all
-all: gen_schemas gen build
+all: build_tool gen_schemas gen build
 
 .PHONY: gen_schemas
 gen_schemas:
@@ -17,6 +17,11 @@ gen_schemas:
 .PHONY: gen
 gen:
 	go generate ./...
+
+.PHONY: build_tool
+build_tool:
+	go build -o ../bin/constanter ../cmd/constanter
+
 .PHONY: build
 build:
 	go run .
